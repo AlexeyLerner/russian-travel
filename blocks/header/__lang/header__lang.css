@@ -1,6 +1,9 @@
 .header__lang{
+    gap: 18px;
     margin: 0;
+    padding: 0;
     flex-direction: row;
-    justify-self: centergt;
+    text-align: center;
+   
     
 }
