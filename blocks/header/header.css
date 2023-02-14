@@ -1,9 +1,12 @@
 .header{
+    border: 1px red solid;
     display: flex;
     justify-content: space-between;
-    width: 1184px;
+    max-width: 1184px;
     height: 52px;
     margin: 28px 48px auto;
+    align-items: end;
+     
     
     
 }

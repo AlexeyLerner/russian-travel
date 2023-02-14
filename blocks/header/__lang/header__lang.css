@@ -1,3 +1,6 @@
-.header__links{
-    margin-left: 1155px;
+.header__lang{
+    margin: 0;
+    flex-direction: row;
+    justify-self: centergt;
+    
 }
