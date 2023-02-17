@@ -1,11 +1,10 @@
 .lead__title{
     color: white;
-   
     max-width: 720px;
-    max-height: auto;
-    margin-left: 0 280px auto;
-    top: 368px;
-    padding: 0;
+    max-height: 200px;
+    margin: 0;
+    padding-left: 280px;
+    padding-right: 280px;
 
     font-family: 'Inter';
     font-style: normal;

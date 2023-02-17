@@ -1,7 +1,89 @@
 .page {
     background: #2A2C2F;
-    width: 100%;
+    max-width: 1280px;
     padding: 0;
-    font-family: 'inter', Arial, Helvetica, sans-serif;
+    font-family: 'Inter-Black', 'Inter-Bold', 'Inter-Regular, sans-serif;
     box-sizing: border-box ;
+}
+
+
+.lead {
+    width: calc(100% - (148px * 2));
+    margin: 0 auto;
+    padding: 0;
+  }
+  @media (max-width: 1060px) {
+    .lead {
+      padding-top: 48px;
+      max-width: calc(100% - (48px * 2));
+    }
+  }
+  @media (max-width: 768px) {
+    .lead {
+      padding-top: 48px;
+      max-width: 100%;
+    }
+  }
+  @media (max-width: 320px) {
+    .lead {
+      padding-top: 48px;
+      max-width: 100%;
+    }
+  }
+  
+
+
+.lead__title{
+    color: white;
+    max-width: 720px;
+    max-height: 200px;
+    margin: auto;
+    padding: 0;
+   
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 96px;
+    line-height: 100px;
+    /* or 120% */
+
+    text-align: center;
+
+}
+
+.lead__subtitle{
+    color: white;
+    max-width: 640px;
+    max-height: 72px;
+    margin: auto;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 36px;
+   
+    
+/* or 120% */
+
+text-align: center;
+
+}
+
+.lead__image{
+
+
+object-fit: cover;
+height: 615px;
+width: 984px;
+
+
+
+
+
+}
+
+.lead__caption{
+    
 }
