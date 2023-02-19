@@ -165,3 +165,20 @@ padding: 0;
   
 
 }
+
+.photo-grid{
+  display: grid;
+  width: 1184px;
+  height: 671px;
+  margin-left: 48px;
+  grid-template-rows: 3 auto;
+  grid-template-columns: repeat(auto-fit, minmax(284px, 1fr));
+  
+  text-decoration: none;
+}
+
+.photo-grid__item{
+  width: 284px;
+  height: 213px;
+  object-fit: cover;
+}
