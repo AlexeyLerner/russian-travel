@@ -99,13 +99,16 @@ width: 984px;
 }
 
 .intro{
-  color: white;
   display: flex;
   flex-direction: column;
-  position: absolute;
+  color: white;
   max-width: 690px;
   max-height: 429px;
-  margin: 48px 148px 442px;
+  margin-top: 48px;
+  margin-left:  148px;
+  margin-right:  442px ;
+  padding: 0;
+  margin-top: 47px;
   
   
 
@@ -118,6 +121,7 @@ width: 984px;
   line-height: 58px;
   letter-spacing: 0em;
   text-align: left;
+  margin: 0;
 
   
 /* identical to box height, or 107% */
@@ -126,10 +130,38 @@ width: 984px;
 .intro__text{
   min-height: 208px;
   max-width: 690px;
-  border-radius: nullpx;
+  margin-top: 48;
+  
+  
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 163%;
+
+
   
 }
 
 .intro__list{
+
+max-width: 690px;
+min-height: 90px;
+padding: 0;
+
+
+
+
+}
+
+.intro__list_accon{
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 18px;
+  list-style: none;
+  margin-top: 19;
+  
 
 }
