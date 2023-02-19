@@ -82,7 +82,7 @@ width: 984px;
 
 .lead__caption{
   color: white;
-  margin-top: 3px;
+  margin-top: 2px;
   max-height: 14px;
   max-width: 158px;
   padding: 0;
@@ -100,19 +100,34 @@ width: 984px;
 
 .intro{
   color: white;
+  display: flex;
+  flex-direction: column;
   position: absolute;
   max-width: 690px;
   max-height: 429px;
-  margin-left: 148px;
-  top: 1233px;
+  margin: 48px 148px 442px;
+  
+  
 
 
 }
 .intro__title{
+  font-family: Inter;
+  font-size: 54px;
+  font-weight: 900;
+  line-height: 58px;
+  letter-spacing: 0em;
+  text-align: left;
+
+  
+/* identical to box height, or 107% */
 
 }
 .intro__text{
-
+  min-height: 208px;
+  max-width: 690px;
+  border-radius: nullpx;
+  
 }
 
 .intro__list{
