@@ -131,7 +131,7 @@ width: 984px;
   min-height: 208px;
   max-width: 690px;
   margin-top: 40px;
-  margin-bottom: 19px;
+  margin-bottom: 18px;
   
   
   font-family: 'Inter';
@@ -146,9 +146,9 @@ width: 984px;
 
 .intro__list{
 
-max-width: 690px;
-min-height: 90px;
-padding: 0;
+  max-width: 690px;
+  min-height: 90px;
+  padding: 0;
 
 
 
@@ -162,7 +162,7 @@ padding: 0;
   font-size: 12px;
   line-height: 18px;
   list-style: none;
-  margin-top: 19;
+ 
   
 }
 
@@ -182,7 +182,6 @@ padding: 0;
 }
 
 .photo-grid__list-item {
-  
   width: 100%;
 }
 .photo-grid__item {
