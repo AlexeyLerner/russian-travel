@@ -108,7 +108,7 @@ width: 984px;
   margin-left:  148px;
   margin-right:  442px ;
   padding: 0;
-  margin-top: 93px;
+  margin-top: 92px;
   
   
 
@@ -130,7 +130,7 @@ width: 984px;
 .intro__text{
   min-height: 208px;
   max-width: 690px;
-  margin-top: 40px;
+  margin-top: 38px;
   margin-bottom: 18px;
   
   
@@ -167,9 +167,9 @@ width: 984px;
 }
 
 .photo-grid {
-  width: 1184px;
-  height: 671px;
-  margin-left: 48px;
+  width: 100%;
+  padding: 0;
+  box-sizing: border-box;
 }
 .photo-grid__list {
   display: grid; 
