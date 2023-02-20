@@ -104,11 +104,13 @@ width: 984px;
   color: white;
   max-width: 690px;
   min-height: 429px;
-  margin-top: 48px;
+  margin-top: 93px;
   margin-left:  148px;
   margin-right:  442px ;
+  margin-bottom: 95px;
   padding: 0;
-  margin-top: 92px;
+
+ 
   
   
 
@@ -162,27 +164,25 @@ width: 984px;
   font-size: 12px;
   line-height: 18px;
   list-style: none;
- 
-  
+   
 }
 
-.photo-grid {
-  width: 100%;
-  padding: 0;
-  box-sizing: border-box;
-}
 .photo-grid__list {
+  box-sizing: border-box;
   display: grid; 
   grid-template-columns: repeat(auto-fit, minmax(284px, 1fr));
+  grid-template-rows: auto;
   list-style-type: none;
-  gap: 16px;
+  gap: 16px 16px;
   margin: 0;
+  padding:  0px 48px 92px 48px ;
 
   
 }
 
 .photo-grid__list-item {
-  width: 100%;
+  display: block;
+
 }
 .photo-grid__item {
 display: block;
