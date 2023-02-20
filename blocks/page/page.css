@@ -190,3 +190,16 @@ width: 100%;
 height: 100%;
 object-fit: cover;
 }
+
+.places {
+  color: white;
+  max-width: 984px;
+   min-height: 3392px;
+   margin: 0 148px auto;
+   
+}
+
+.place{
+  display: grid;
+  grid-template-areas: ;
+}
