@@ -193,13 +193,43 @@ object-fit: cover;
 
 .places {
   color: white;
-  max-width: 984px;
-   min-height: 3392px;
-   margin: 0 148px auto;
+    max-width: 984px;
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
    
 }
 
+.places__list{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
 .place{
   display: grid;
-  grid-template-areas: ;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-areas:
+  "title  website" 
+  "image  paragraph"
+  "image  paragraph";
+  gap: 40px;
 }
+.place__title{
+  margin: 0;
+  grid-area: title;
+  max-width: 460px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 76px;
+}
+.image{}
+.website{
+  
+  max-width: 456px;
+  min-height: 46px;
+
+
+}
+.paragraph{}
