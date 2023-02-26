@@ -192,7 +192,7 @@ object-fit: cover;
 }
 
 .places {
-  color: white;
+    color: white;
     max-width: 984px;
     margin: 0 auto;
     padding: 0;
@@ -206,17 +206,19 @@ object-fit: cover;
   list-style: none;
 }
 .place{
-  width: 984px;
+  outline: 1px solid red;
+  padding: 0;
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: auto;
+  grid-template-columns:  460px 484px; 
   grid-template-areas:
   "title  website"
-  "image  paragraph-one"
-  "image  paragraph-two";
-  gap: 40px;
+  "image  paragraph";
+  column-gap: 40px;
+  row-gap: 48px;
+  
 }
 .place__title{
+  outline: 1px solid red;
   margin: 0;
   padding: 0;
   grid-area: title;
@@ -227,44 +229,56 @@ object-fit: cover;
   font-size: 72px;
   line-height: 76px;
 }
-.place__image{
-  grid-area: image;
-  
-  width: 460px;
-  height: 460px;
-  object-fit: contain;
-  margin: 0;
-  padding: 0;
-}
-
-.website{
+.place__website{
+  outline: 1px solid red;
   grid-area: website;
   list-style: none;
   max-width: 456px;
   min-height: 46px;
   margin: 0;
   padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  
+  
 
 
 }
+.place__url-header{
+  color: white;
+}
+.place__image{
+  outline: 1px solid red;
+  position: relative;
+  grid-area: image;
+  width: 100%;
+  width: 460px;
+  height: 460px;
+  object-fit: cover;
+  margin: 0;
+  padding: 0;
+}
+
+
+.place__paragraph{
+  outline: 1px solid red;
+  padding: 0;
+  grid-area: paragraph;
+}
 .paragraph-one{
-  grid-area: paragraph-one;
+  outline: 1px solid red;
   max-width: 484px;
   min-height: 145px;
-  
-
   font-family: 'Inter';
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
   line-height: 163%;
-  /* or 29px */
 }
 .paragraph-two{
-  grid-area: paragraph-two;
   max-width: 484px;
   min-height: 203px;
-
   font-family: 'Inter';
   font-style: normal;
   font-weight: 400;
